@@ -24,7 +24,6 @@ export default new Vuex.Store({
             state.event.queue[payload.event] = ''
         },
         updateGlobal(state, payload) {
-            console.info('当前应用全局变量同步更新')
             state.all = electron.remote.getGlobal('vuex')
         },
         addNodeVuexNum(state, payload) {
