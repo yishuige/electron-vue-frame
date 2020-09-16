@@ -41,8 +41,8 @@ electron.ipcRenderer.send('自定义的功能模块名称')
 ```bash
 # 1.要是vue页面跳转，保持不变
 
-# 2.弹框或新建窗口跳转，利用routes的meta变量封装跳转的标志和参数：
+# 2.弹框或新建窗口跳转，利用routes的meta变量封装跳转的标志和参数
 
-# 3.外部跳转，例：
+# 3.弹框或新建窗口的外部跳转，例：
     this.$router.push({ name: 'Login', params: { open: true } })
 ```
